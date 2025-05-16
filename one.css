@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body,
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: black;
+    background-image: url(https://c8.alamy.com/comp/PCT4JN/clear-blue-sky-on-sunny-day-with-sparse-clouds-abstract-background-nature-air-travel-weather-forecast-cloudscape-or-freedom-concept-PCT4JN.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box {
+    height: 600px;
+    width: 400px;
+    background-color: #87CEFA;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.search {
+    width: 100%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search img {
+    height: 150px;
+}
+
+.col img {
+    height: 50px;
+}
+
+.col {
+    display: flex;
+}
+
+.col p {
+    color: black;
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+input,
+button {
+    position: relative;
+    top: 50px;
+
+}
+
+input {
+    width: 65%;
+    padding: 5px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+button {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#further {
+    display: flex;
+}
+
+#col2 {
+    margin-left: 60px;
+}
+
+.col {
+    position: relative;
+    top: 30px;
+}
