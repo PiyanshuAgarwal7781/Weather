@@ -18,15 +18,15 @@ form.addEventListener("submit", (eve) => {
             let weatherCondition = data.weather[0].main.toLowerCase();
             type.innerText = `WEATHER:${data.weather[0].main.toUpperCase()}`
             if (weatherCondition == "clear") {
-                imageElement.src = "/OneShot/projects_/IMAGES/clear.png";
+                imageElement.src = "IMAGES/clear.png";
             } else if (weatherCondition == "cloud") {
-                imageElement.src = "/OneShot/projects_/IMAGES/cloud.png";
+                imageElement.src = "Images/cloud.png";
             } else if (weatherCondition == "rain") {
-                imageElement.src = "/OneShot/projects_/IMAGES/rain.png";
+                imageElement.src = "IMAGES/rain.png";
             } else if (weatherCondition == "haze" || weatherCondition == "mist") {
-                imageElement.src = "/OneShot/projects_/IMAGES/mist.png";
+            imageElement.src = "IMAGES/haze.png";
             } else if (weatherCondition == "snow") {
-                imageElement.src = "/OneShot/projects_/IMAGES/rain.png";
+                imageElement.src = "IMAGES/snow.png";
             }
         })
         .catch((error) => {
